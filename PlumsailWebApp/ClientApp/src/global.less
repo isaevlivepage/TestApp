@@ -1,0 +1,151 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.react-grid-layout {
+  position: relative;
+  transition: height 200ms ease;
+  background: #eee;
+
+  .react-grid-item {
+    transition: all 200ms ease;
+    transition-property: left, top;
+    box-sizing: border-box;
+    background: #ccc;
+    border: 1px solid black;
+
+    &:not(.react-grid-placeholder) {
+      background: #ccc;
+      border: 1px solid black;
+    }
+
+    .static {
+      background: #cce;
+    }
+
+    .cssTransforms {
+      transition-property: transform;
+    }
+
+    .resizing {
+      z-index: 1;
+      will-change: width, height;
+      opacity: 0.9;
+    }
+
+    .react-draggable-dragging {
+      transition: none;
+      z-index: 3;
+      will-change: transform;
+    }
+
+    .text {
+      font-size: 24px;
+      text-align: center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 24px;
+    }
+
+    .minMax {
+      font-size: 12px;
+    }
+
+    .add {
+      cursor: pointer;
+    }
+
+    .dropping {
+      visibility: hidden;
+    }
+
+    .react-grid-placeholder {
+      background: red;
+      opacity: 0.2;
+      transition-duration: 100ms;
+      z-index: 2;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+    }
+
+    .react-resizable-handle {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      bottom: 0;
+      right: 0;
+      cursor: se-resize;
+    }
+
+    .react-resizable-handle::after {
+      content: "";
+      position: absolute;
+      right: 3px;
+      bottom: 3px;
+      width: 5px;
+      height: 5px;
+      border-right: 2px solid rgba(0, 0, 0, 0.4);
+      border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    }
+
+    .droppable-element {
+      width: 150px;
+      background: #ddd;
+      border: 1px solid black;
+      margin-top: 10px;
+      padding: 10px;
+    }
+  }
+}
+

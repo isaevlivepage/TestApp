@@ -1,0 +1,30 @@
+@widthInput: 70px;
+@sliderMarginRight: 18px;
+@sliderMarginLeft: 6px;
+
+.SliderWithInput {
+  & > div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .Slider {
+    width: calc(100% - @widthInput - @sliderMarginRight - @sliderMarginLeft);
+    margin-right: @sliderMarginRight;
+  }
+  .Input {
+    &:global(.ant-input-number) {
+      width: @widthInput;
+      border: 1px solid #e4e4e4;
+      border-radius: 6px;
+      background-color: #f6f6f6;
+    }
+    :global {
+      .ant-input-number-handler-wrap {
+        display: none;
+      }
+      .ant-input-number-input {
+        text-align: center;
+      }
+    }
+  }
+}

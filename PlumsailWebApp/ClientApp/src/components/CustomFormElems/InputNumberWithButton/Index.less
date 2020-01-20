@@ -1,0 +1,93 @@
+@import '~antd/lib/style/themes/default.less';
+
+.InputNumberWithButton {
+  :global {
+    .ant-input-number-handler-wrap {
+      display: none;
+    }
+
+    .ant-input-number {
+      border-radius: 0;
+      border: none;
+
+      &.ant-input-number-focused {
+        z-index: 2;
+      }
+    }
+
+    .ant-input-number-input {
+      text-align: center;
+    }
+  }
+
+  .ButtonPlus,
+  .ButtonMinus,
+  .Input {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .ButtonPlus,
+  .ButtonMinus {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    color: #a6a6a6;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    z-index: 1;
+  }
+
+  &:not(.bordered) {
+    min-width: 144px;
+
+    :global {
+      .ant-form-item-label {
+        white-space: normal;
+      }
+    }
+  }
+
+  &.bordered {
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: 104px;
+
+    :global {
+      .ant-input-number {
+        border-top: 1px solid #e4e4e4;
+        border-bottom: 1px solid #e4e4e4;
+      }
+
+      .ant-form-item-label {
+        white-space: nowrap;
+      }
+    }
+
+    &.bordered {
+      display: flex;
+      flex-flow: row nowrap;
+      min-width: 104px;
+
+      :global {
+        .ant-input-number {
+          border-top: 1px solid #e4e4e4;
+          border-bottom: 1px solid #e4e4e4;
+        }
+
+        .ant-form-item-label {
+          white-space: nowrap;
+        }
+      }
+
+      .ButtonPlus {
+        border-radius: 0 4px 4px 0;
+      }
+
+      .ButtonMinus {
+        border-radius: 4px 0 0 4px;
+      }
+    }
+  }
+}

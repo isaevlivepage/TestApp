@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\VIsaev\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\VIsaev\.Rider2019.3\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\VIsaev\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\VIsaev\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_PlumsailWebApp.951494894.00" t="ExcludeRecursive" />
+    <e p="C:\Users\VIsaev\Documents\TestApp" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PlumsailWebApp" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientApp" t="Include">
+          <e p=".editorconfig" t="Include" />
+          <e p=".eslintignore" t="Include" />
+          <e p=".eslintrc.js" t="Include" />
+          <e p=".gitignore" t="Include" />
+          <e p=".prettierignore" t="Include" />
+          <e p=".prettierrc.js" t="Include" />
+          <e p=".stylelintrc.js" t="Include" />
+          <e p="config" t="Include">
+            <e p="config.js" t="Include" />
+            <e p="defaultSettings.js" t="Include" />
+            <e p="plugin.config.js" t="Include" />
+            <e p="router.config.js" t="Include" />
+          </e>
+          <e p="jest-puppeteer.config.js" t="Include" />
+          <e p="jest.config.js" t="Include" />
+          <e p="jsconfig.json" t="Include" />
+          <e p="mock" t="Include">
+            <e p="notices.js" t="Include" />
+            <e p="route.js" t="Include" />
+            <e p="user.js" t="Include" />
+          </e>
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="public" t="Include">
+            <e p="favicon.png" t="Include" />
+            <e p="icons" t="Include">
+              <e p="icon-128x128.png" t="Include" />
+              <e p="icon-192x192.png" t="Include" />
+              <e p="icon-512x512.png" t="Include" />
+            </e>
+          </e>
+          <e p="src" t="Include">
+            <e p="assets" t="Include">
+              <e p="logo.svg" t="Include" />
+            </e>
+            <e p="components" t="Include">
+              <e p="Authorized" t="Include">
+                <e p="Authorized.jsx" t="Include" />
+                <e p="AuthorizedRoute.jsx" t="Include" />
+                <e p="CheckPermissions.jsx" t="Include" />
+                <e p="index.jsx" t="Include" />
+                <e p="PromiseRender.jsx" t="Include" />
+                <e p="renderAuthorize.js" t="Include" />
+                <e p="Secured.jsx" t="Include" />
+              </e>
+              <e p="CopyBlock" t="Include">
+                <e p="index.jsx" t="Include" />
+                <e p="index.less" t="Include" />
+              </e>
+              <e p="CustomFormElems" t="Include">
+                <e p="index.js" t="Include" />
+                <e p="InputNumberWithButton" t="Include">
+                  <e p="index.js" t="Include" />
+                  <e p="index.less" t="Include" />
+                </e>
+                <e p="SliderWithInput" t="Include">
+                  <e p="index.js" t="Include" />
+                  <e p="index.less" t="Include" />
+                </e>
+              </e>
+              <e p="CustomModal" t="Include">
+                <e p="index.js" t="Include" />
+              </e>
+              <e p="GlobalHeader" t="Include">
+                <e p="AvatarDropdown.jsx" t="Include" />
+                <e p="index.less" t="Include" />
+                <e p="NoticeIconView.jsx" t="Include" />
+                <e p="RightContent.jsx" t="Include" />
+              </e>
+              <e p="HeaderDropdown" t="Include">
+                <e p="index.jsx" t="Include" />
+                <e p="index.less" t="Include" />
+              </e>
+              <e p="HeaderSearch" t="Include">
+                <e p="index.jsx" t="Include" />
+                <e p="index.less" t="Include" />
+              </e>
+              <e p="NoticeIcon" t="Include">
+                <e p="index.jsx" t="Include" />
+                <e p="index.less" t="Include" />
+                <e p="NoticeList.jsx" t="Include" />
+                <e p="NoticeList.less" t="Include" />
+              </e>
+              <e p="PageLoading" t="Include">
+                <e p="index.jsx" t="Include" />
+              </e>
+              <e p="SelectLang" t="Include">
+                <e p="index.jsx" t="Include" />
+                <e p="index.less" t="Include" />
+              </e>
+              <e p="SettingDrawer" t="Include">
+                <e p="themeColorClient.js" t="Include" />
+              </e>
+            </e>
+            <e p="e2e" t="Include">
+              <e p="__mocks__" t="Include">
+                <e p="antd-pro-merge-less.js" t="Include" />
+              </e>
+              <e p="baseLayout.e2e.js" t="Include" />
+              <e p="topMenu.e2e.js" t="Include" />
+            </e>
+            <e p="global.jsx" t="Include" />
+            <e p="global.less" t="Include" />
+            <e p="hooks" t="Include">
+              <e p="useDebounceCallback.js" t="Include" />
+              <e p="useLockingPool.js" t="Include" />
+            </e>
+            <e p="layouts" t="Include">
+              <e p="BasicLayout.jsx" t="Include" />
+              <e p="BlankLayout.jsx" t="Include" />
+              <e p="SecurityLayout.jsx" t="Include" />
+              <e p="UserLayout.jsx" t="Include" />
+              <e p="UserLayout.less" t="Include" />
+            </e>
+            <e p="locales" t="Include">
+              <e p="en-US" t="Include">
+                <e p="component.js" t="Include" />
+                <e p="globalHeader.js" t="Include" />
+                <e p="menu.js" t="Include" />
+                <e p="pwa.js" t="Include" />
+                <e p="settingDrawer.js" t="Include" />
+                <e p="settings.js" t="Include" />
+              </e>
+              <e p="en-US.js" t="Include" />
+              <e p="pt-BR" t="Include">
+                <e p="component.js" t="Include" />
+                <e p="globalHeader.js" t="Include" />
+                <e p="menu.js" t="Include" />
+                <e p="pwa.js" t="Include" />
+                <e p="settingDrawer.js" t="Include" />
+                <e p="settings.js" t="Include" />
+              </e>
+              <e p="pt-BR.js" t="Include" />
+              <e p="zh-CN" t="Include">
+                <e p="component.js" t="Include" />
+                <e p="globalHeader.js" t="Include" />
+                <e p="menu.js" t="Include" />
+                <e p="pwa.js" t="Include" />
+                <e p="settingDrawer.js" t="Include" />
+                <e p="settings.js" t="Include" />
+              </e>
+              <e p="zh-CN.js" t="Include" />
+              <e p="zh-TW" t="Include">
+                <e p="component.js" t="Include" />
+                <e p="globalHeader.js" t="Include" />
+                <e p="menu.js" t="Include" />
+                <e p="pwa.js" t="Include" />
+                <e p="settingDrawer.js" t="Include" />
+                <e p="settings.js" t="Include" />
+              </e>
+              <e p="zh-TW.js" t="Include" />
+            </e>
+            <e p="manifest.json" t="Include" />
+            <e p="Models" t="Include">
+              <e p="global.js" t="Include" />
+              <e p="login.js" t="Include" />
+              <e p="Resume.js" t="Include" />
+              <e p="setting.js" t="Include" />
+              <e p="user.js" t="Include" />
+            </e>
+            <e p="pages" t="Include">
+              <e p=".umi" t="Include">
+                <e p="dva.js" t="Include" />
+                <e p="history.js" t="Include" />
+                <e p="LocaleWrapper.jsx" t="Include" />
+                <e p="polyfills.js" t="Include" />
+                <e p="router.js" t="Include" />
+                <e p="umi.js" t="Include" />
+                <e p="umiExports.js" t="Include" />
+              </e>
+              <e p="404.jsx" t="Include" />
+              <e p="Admin.jsx" t="Include" />
+              <e p="Authorized.jsx" t="Include" />
+              <e p="document.ejs" t="Include" />
+              <e p="list" t="Include">
+                <e p="components" t="Include">
+                  <e p="custom.less" t="Include" />
+                  <e p="ResumeDetailForm.js" t="Include" />
+                  <e p="ResumeDetailForm.less" t="Include" />
+                  <e p="ResumeDetailModal.js" t="Include" />
+                  <e p="ResumeTable.js" t="Include" />
+                </e>
+                <e p="Resumes.js" t="Include" />
+                <e p="utils.js" t="Include" />
+              </e>
+              <e p="user" t="Include">
+                <e p="login" t="Include">
+                  <e p="components" t="Include">
+                    <e p="login" t="Include">
+                      <e p="index.jsx" t="Include" />
+                      <e p="index.less" t="Include" />
+                      <e p="LoginContext.jsx" t="Include" />
+                      <e p="LoginItem.jsx" t="Include" />
+                      <e p="LoginSubmit.jsx" t="Include" />
+                      <e p="LoginTab.jsx" t="Include" />
+                      <e p="map.jsx" t="Include" />
+                    </e>
+                  </e>
+                  <e p="index.jsx" t="Include" />
+                  <e p="locales" t="Include">
+                    <e p="en-US.js" t="Include" />
+                    <e p="zh-CN.js" t="Include" />
+                    <e p="zh-TW.js" t="Include" />
+                  </e>
+                  <e p="style.less" t="Include" />
+                </e>
+              </e>
+              <e p="Welcome.jsx" t="Include" />
+            </e>
+            <e p="selectors" t="Include">
+              <e p="Resume.js" t="Include" />
+            </e>
+            <e p="service-worker.js" t="Include" />
+            <e p="services" t="Include">
+              <e p="login.js" t="Include" />
+              <e p="Resume.js" t="Include" />
+              <e p="user.js" t="Include" />
+            </e>
+            <e p="utils" t="Include">
+              <e p="authority.js" t="Include" />
+              <e p="authority.test.js" t="Include" />
+              <e p="Authorized.js" t="Include" />
+              <e p="custom.less" t="Include" />
+              <e p="request.js" t="Include" />
+              <e p="utils.js" t="Include" />
+              <e p="utils.less" t="Include" />
+              <e p="utils.test.js" t="Include" />
+            </e>
+          </e>
+          <e p="tests" t="Include">
+            <e p="run-tests.js" t="Include" />
+          </e>
+        </e>
+        <e p="components" t="Include">
+          <e p="CustomDbContext.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
+          <e p="ResumeController.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20200120092152_InitialCreate.cs" t="Include" />
+          <e p="20200120092152_InitialCreate.Designer.cs" t="Include" />
+          <e p="CustomDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="BaseEntity.cs" t="Include" />
+          <e p="Resume.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="PlumsailWebApp.AssemblyInfo.cs" t="Include" />
+              <e p="PlumsailWebApp.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PlumsailWebApp.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="PlumsailWebApp.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

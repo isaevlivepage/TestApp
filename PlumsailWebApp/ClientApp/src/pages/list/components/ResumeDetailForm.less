@@ -1,0 +1,59 @@
+// @import '~antd/lib/style/themes/default.less';
+@import '~@/utils/utils.less';
+
+
+.photo-upload {
+  :global {
+    .ant-upload.ant-upload-select-picture-card {
+      margin: auto;
+      width: 144px;
+      height: 144px;
+      border-style: solid;
+      border-radius: 50%;
+
+      > .ant-upload {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.photo-frame {
+  position: relative;
+  min-width: 64px;
+  min-height: 64px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+
+  .photo-frame-downline {
+    position: absolute;
+    top: calc(100% - 32px);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #212121;
+    opacity: 0.8;
+    transition: top 0.5s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
+  }
+
+  &:hover,
+  &:focus {
+    .photo-frame-downline {
+      top: 0;
+    }
+  }
+
+  :global {
+    .anticon svg {
+      color: #fff;
+      fill: #fff;
+    }
+  }
+}
